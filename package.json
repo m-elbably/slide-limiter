@@ -20,6 +20,7 @@
         "release:minor": "npm run release -- --release-as minor",
         "release:update": "npm run release -- --release-as patch --skip.tag",
         "test": "jest",
+        "coverage": "jest --coverage",
         "coverall": "jest --coverage && cat ./coverage/lcov.info | coveralls"
     },
     "dependencies": {
