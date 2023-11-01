@@ -1,0 +1,42 @@
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+*.swp
+
+data
+pids
+logs
+results
+tmp
+
+# Resources
+res/diagrams
+
+# Coverage reports
+coverage
+test/training
+
+# API keys and secrets
+.env
+
+# Dependency directory
+node_modules
+
+# Editors
+.idea
+*.iml
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Ignore built ts files
+dist/**/*
+lib/**/*
+
+# ignore yarn.lock
+yarn.lock
