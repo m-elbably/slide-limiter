@@ -91,7 +91,7 @@ const bucket = 'users';
 const key = "user123";
 const remainingRequests = await limiter.hit(bucket, key);
 
-if (remainingRequests >= 0) {
+if (remainingRequests > 0) {
   // Allow the action
   console.log(`Action performed. Remaining requests: ${remainingRequests}`);
 } else {
