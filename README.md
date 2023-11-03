@@ -74,7 +74,7 @@ The Sliding Window Algorithm offers several advantages, including:
 Here's how you can use slide limiter in your project:
 
 ```typescript
-import { MemoryStore, SlideLimiter } from "slite-limiter";
+import { MemoryStore, SlideLimiter } from "slide-limiter";
 
 // Create a MemoryStore instance
 const store = new MemoryStore();
