@@ -1,4 +1,4 @@
-name: symspell-ex
+name: slide-limiter
 on:
   push:
     branches:
